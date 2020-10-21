@@ -1,8 +1,8 @@
 body {
     background-color: #FCF6B1;
   }
-  h2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  .name{
+    text-align: center;
   }
   .list-style {
     font-weight: 500;
@@ -28,5 +28,16 @@ body {
     color: red;
   }
   .picture{
-    border-radius: 100%;
+    border-radius: 20%;
+    margin: 10px;
+     }
+  .descreve{
+    float: right;
   }
+  .hability{
+    margin-top: 200px;
+  }
+  .foto{
+    float: left;
+  }
+ 

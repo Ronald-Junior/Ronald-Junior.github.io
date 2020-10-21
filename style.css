@@ -1,43 +1,45 @@
-body {
+  body {
     background-color: #FCF6B1;
   }
   .name{
     text-align: center;
+    padding: 35px;
   }
+  .descreve{
+    float: right;
+    margin: 35px;
+    padding: 35px;
+    width: 50%;
+     }
   .list-style {
     font-weight: 500;
     font-size: 29px;
     color: blue;
   }
-  .list-style2 {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  .list-style3 {
+    .list-style3 {
     font-size: 48px;
     font-weight: bold;
     color: brown;
   }
-  .list-style4 {
-    font-size: 33px;
-    font-weight: italic;
-  }
+ 
   .list-style5 {
     font-size: 52px;
     font-weight: bold;
     color: red;
   }
   .picture{
-    border-radius: 20%;
-    margin: 10px;
-     }
-  .descreve{
-    float: right;
-  }
-  .hability{
-    margin-top: 200px;
-  }
-  .foto{
+    width: 250px;
     float: left;
+    border-radius: 20%;
+    margin: 35px;
+    padding: 35px;
+    background: gray;
+    }
+  .hability{
+    margin: 35px;
+    padding: 35px;
+    clear: both;
   }
- 
+  .container  {
+    display: inline-block;
+  }
